@@ -11,3 +11,6 @@ void testModifyOrder(OrderBook &ob);
 void testDeleteOrder(OrderBook &ob);
 
 void stressTestOrderBook(OrderBook &ob, int numOrders);
+
+void incrementalStressTestOrderBook(OrderBook &ob);
+

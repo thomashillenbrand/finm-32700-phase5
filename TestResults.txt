@@ -1,0 +1,86 @@
+OUTPUT FROM RUNNING main.cpp
+See OrderBookTests.cpp and OptimizedOrderBookTests.cpp for the test code
+
+Running OrderBook Tests
+Testing addOrder
+================
+Order added successfully: ORD001
+Order added successfully: ORD002
+Order added successfully: ORD003
+
+Testing modifyOrder
+===================
+Order modified successfully: ORD001
+
+Testing deleteOrder
+===================
+Order deleted successfully!
+
+Stress Test OrderBook
+==============================
+addOrder (N = 5000) execution time: 1 ms
+modifyOrder (N = 5000) execution time: 4 ms
+deleteOrder (N = 5000) execution time: 3 ms
+
+addOrder (N = 10000) execution time: 4 ms
+modifyOrder (N = 10000) execution time: 13 ms
+deleteOrder (N = 10000) execution time: 9 ms
+
+addOrder (N = 50000) execution time: 44 ms
+modifyOrder (N = 50000) execution time: 67 ms
+deleteOrder (N = 50000) execution time: 47 ms
+
+addOrder (N = 100000) execution time: 140 ms
+modifyOrder (N = 100000) execution time: 205 ms
+deleteOrder (N = 100000) execution time: 123 ms
+
+addOrder (N = 500000) execution time: 898 ms
+modifyOrder (N = 500000) execution time: 1797 ms
+deleteOrder (N = 500000) execution time: 1014 ms
+
+addOrder (N = 1000000) execution time: 1823 ms
+modifyOrder (N = 1000000) execution time: 3651 ms
+deleteOrder (N = 1000000) execution time: 2292 ms
+
+-------------------------
+
+Running OptimizedOrderBook Tests
+Testing addOrder
+================
+Order added successfully: ORD001
+Order added successfully: ORD002
+Order added successfully: ORD003
+
+Testing modifyOrder
+===================
+Order modified successfully: ORD001
+
+Testing deleteOrder
+===================
+Order deleted successfully!
+
+Stress Test OptimizedOrderBook
+==============================
+addOrder (N = 5000) execution time: 2 ms
+modifyOrder (N = 5000) execution time: 5 ms
+deleteOrder (N = 5000) execution time: 2 ms
+
+addOrder (N = 10000) execution time: 6 ms
+modifyOrder (N = 10000) execution time: 8 ms
+deleteOrder (N = 10000) execution time: 6 ms
+
+addOrder (N = 50000) execution time: 40 ms
+modifyOrder (N = 50000) execution time: 116 ms
+deleteOrder (N = 50000) execution time: 67 ms
+
+addOrder (N = 100000) execution time: 76 ms
+modifyOrder (N = 100000) execution time: 229 ms
+deleteOrder (N = 100000) execution time: 153 ms
+
+addOrder (N = 500000) execution time: 809 ms
+modifyOrder (N = 500000) execution time: 1425 ms
+deleteOrder (N = 500000) execution time: 1013 ms
+
+addOrder (N = 1000000) execution time: 1860 ms
+modifyOrder (N = 1000000) execution time: 3440 ms
+deleteOrder (N = 1000000) execution time: 2080 ms

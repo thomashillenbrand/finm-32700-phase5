@@ -21,7 +21,8 @@ int main() {
     testDeleteOrder(ob);
     ob.reset();
 
-    stressTestOrderBook(ob, 1000000);
+    // stressTestOrderBook(ob, 1000000);
+    incrementalStressTestOrderBook(ob);
     cout << "-------------------------" << endl;
 
     cout << "Running OptimizedOrderBook Tests" << endl;
@@ -36,5 +37,6 @@ int main() {
     testDeleteOrder(optob);
     optob.reset();
 
-    stressTestOrderBook(optob, 1000000);
+    // stressTestOrderBook(optob, 1000000);
+    incrementalStressTestOrderBook();
 }

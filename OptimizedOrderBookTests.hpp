@@ -11,3 +11,5 @@ void testModifyOrder(OptimizedOrderBook &ob);
 void testDeleteOrder(OptimizedOrderBook &ob);
 
 void stressTestOrderBook(OptimizedOrderBook &ob, int numOrders);
+
+void incrementalStressTestOrderBook();
