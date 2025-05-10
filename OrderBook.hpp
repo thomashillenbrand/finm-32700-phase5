@@ -1,16 +1,10 @@
 #pragma once
 
-#include <iostream>
 #include <map>
 #include <unordered_map>
 #include <string>
 
-struct Order {
-    std::string id; // String-based order ID
-    double price;
-    int quantity;
-    bool isBuy;
-};
+#include "Order.hpp"
 
 class OrderBook {
 public:
@@ -20,7 +14,7 @@ public:
 
     void deleteOrder(const std::string &id);
 
-    Order* getOrder(const std::string &id);
+    Order *getOrder(const std::string &id);
 
     void reset();
 
