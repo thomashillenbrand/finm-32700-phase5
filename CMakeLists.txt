@@ -5,6 +5,7 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(finm-32700-phase5 main.cpp
         OrderBook.cpp
-        OrderBook.hpp)
+        OrderBook.hpp
+        OrderBookTests.cpp)
 
 target_compile_options(finm-32700-phase5 PRIVATE -O0)
